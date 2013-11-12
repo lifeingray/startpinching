@@ -1,0 +1,117 @@
+/* Scheme */
+/* Colors 
+	Green: 		#4e8d12 / #66963a
+	Gold:		#cc841c / #d1ab37
+	Orange:	#d3441d / #e27340
+	Blue:		#3e6c88 / #3d9cc0
+*/
+
+body{background:#FFF;}
+.container {padding:0px !important;}
+.navbar-wrapper {position:fixed;}
+.navbar-brand {letter-spacing:1.5px;}
+.navbar-brand span  {color:#ff8a00; font-size:14px;}
+.align-right {text-align:right;}
+.align-center {text-align:center;}
+.clear {clear:both; font-size:0px; line-height:0px; height:0px;}
+
+
+/* Carousel *******/
+.car_bg {background:url('../images/story_bg_wrap.png');}
+.car_1 {background:url('../images/blue_bg2.png');}
+.car_2 {background:url('../images/slide_gold.png') center center no-repeat;}
+.car_3 {background:url('../images/slide_orange.png') center center no-repeat;}
+.car_4 {background:url('../images/slide_green.png') center center no-repeat;}
+
+/* Core ***********/
+#build {background:url('../images/white-to-light.jpg') top center repeat-x #DFDFDF;}
+#intro  {background:url('../images/light-to-white.jpg') top center repeat-x #FFF;}
+#resources {color:#FFF; background: url('../images/white-to-dark.jpg') top center repeat-x #444;}
+#about {background:url('../images/dark-to-blue.jpg') top center repeat-x  #3e6c88; color:#FFF;}
+#home {background:#FFF;}
+footer {background:url('../images/story_bg_wrap.png') #444; padding:15px; border-top:2px solid #333; color:#FFF; }
+#intro h1 {border-bottom:2px solid #d3441d; padding-bottom:10px; margin-bottom:20px;}
+#intro h1 span {color:#d3441d}
+#plan h1 {border-bottom:2px solid #cc841c; padding-bottom:10px;  margin-bottom:20px;}
+#plan h1 span {color:#cc841c}
+#about h1 {border-bottom:2px solid #3d9cc0; padding-bottom:10px; margin-bottom:20px;}
+#about h1 span {color:#3d9cc0}
+#build h1 {border-bottom:2px solid #4e8d12; padding-bottom:10px; margin-bottom:20px;}
+#build h1 span {color:#4e8d12;}
+.resource-links a {font-size:16px; padding:2px; display:block;}
+.spacer {margin-top:25px;}
+.plan {border-bottom:2px solid #cc841c; margin-left:1px; margin-right:1px;}
+.build {border-bottom:2px solid #4e8d12; margin-left:1px; margin-right:1px;}
+.intro {border-bottom:2px solid #d3441d; margin-left:1px; margin-right:1px;}
+.about {border-bottom:2px solid #3e6c88; margin-left:1px; margin-right:1px;}
+.featurette-heading {margin-top: 0px !important;}
+.featurette-image {border:1px solid #CCC; margin-bottom:15px;}
+.info {font-style:italic; color:#777; margin-bottom:30px;}
+.meet {font-size:45px;}
+.text-time {font-size:16px; font-weight:normal; color:#e27340;}
+.mainline {margin-top:12px; margin-bottom:5px; margin-left:-20px; list-style:none;}
+.subline {margin-top:5px; margin-left:25px;  font-size:16px; color:#3e6c88;}
+.hintline {margin-left:50px; font-size:12px; color:#777;}
+.sub-info {line-height:1.2; font-size:16px;}
+.lightbox {
+	background:url('../images/story_bg_wrap.png') #777; 
+	border:1px solid #000;
+	color:#FFF;
+	padding-left:15px;
+	padding-right:15px;
+}
+.lightbox p em {display:block; color:#d1ab37; font-size:12px;}
+h1 span {color:#ff8a00;}
+.neveractive a {color:#999999 !important; background:#222222 !important;}
+.neveractive a:hover {color:#999999 !important;}
+.neveractive a:active {color:#999999 !important;}
+.text-muted {vertical-align:text-top;}
+.text-muted img {width:35px; height:35px; vertical-align:text-top; margin:7px 5px 0px 0px;} 
+.mvp-img {margin:0px 10px 10px 10px; border:1px solid #333; box-shadow: 4px 4px 4px #225061; max-height:160px;}
+.success {color:#5cb85c;}
+.scope {color:#f0ad4e;}
+
+/* Story Tabs ***/
+#story-tabs a {color:#53c3ec;}
+#story-tabs a:active {color:#FFF;}
+#story-tabs a.active {color:#FFF;}
+.tab-pane {background:#32566d; padding:20px;}
+.future {font-size:18px;}
+
+/* Bio *****/
+.bio p  {font-size:12px; color:#EEE; }
+.bio p b.team {font-size:14px;}
+.bio a {color:#FFF;}
+.bio-photo{border:5px solid #3d9cc0; padding:0px; margin:0px 25px 5px 25px;box-shadow: 4px 4px 4px #225061;}
+.bio-name{padding-top:50px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);}
+p.bio-title {color:#53c3ec; font-style:italic; font-size:13px; margin-top:-10px;}
+p.bio-author {color:#BBB; font-style:italic; font-size:11px; margin-top:-10px;}
+
+/* Social *****/
+.social {background:#FFF; border:3px solid #3d9cc0;}
+.social a {color:#3d9cc0;;}
+.social a:hover {color:#FFF; text-decoration:none;}
+.social-burndown { max-width:400px; text-align:center; margin:0 auto; background: url(../images/pinch-board.jpg) top left no-repeat; border-top:2px solid #3d9cc0; border-bottom:2px solid #3d9cc0; border-right:2px solid #3d9cc0; box-shadow: 4px 4px 4px #225061;}
+.social-column{padding-top:5px;  height:210px; width:33.333333%; float:left; border-left:2px solid #3d9cc0; text-align:center; margin:0 auto;}
+.card{position: relative; width:100%; margin:0 auto;}
+
+/* responsive *****/
+#plan, #build, #intro, #resources, #about {padding-top:35px; padding-left:35px; padding-right:35px; padding-bottom:30px;}
+@media (max-width: 767px)  {
+#plan, #build, #intro, #resources, #about {padding-left:10px; padding-right:10px;}
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+#plan, #build, #intro, #resources, #about {padding-left:25px; padding-right:25px;}
+}
+@media (min-width: 992px)   {
+#plan, #build, #intro, #resources, #about {padding-left:35px; padding-right:35px;}
+}
+@media (min-width: 200px) {
+	.process_icons img {width:20px;}
+}
+@media (min-width: 500px) {
+	.process_icons img {width:40px;}
+}
+@media (min-width: 768px) {
+	.process_icons img {width:60px;}
+}
