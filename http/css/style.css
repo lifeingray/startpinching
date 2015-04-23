@@ -3,19 +3,20 @@
 	Green: 		#4e8d12 / #66963a
 	Gold:		#cc841c / #d1ab37
 	Orange:	#d3441d / #e27340
+	New Orange #f8bf51
 	Blue:		#3e6c88 / #3d9cc0
 */
 
 body{background:#FFF;}
 .container {padding:0px !important;}
 .navbar-wrapper {position:fixed;}
-.navbar-brand {letter-spacing:1.5px;}
-.navbar-brand span  {color:#ff8a00; font-size:14px;}
+.navbar > .container .navbar-brand  {letter-spacing:1.5px; color:#FFF;}
+.navbar-brand span  {color:#f8bf51; font-size:14px;}
 .align-right {text-align:right;}
 .align-center {text-align:center;}
 .clear {clear:both; font-size:0px; line-height:0px; height:0px;}
 
-.next_stop {float:right; z-index:1000; color:#ff8a00; font-size:16px; padding:15px 5px 0px 0px; font-style:italic;}
+.next_stop {float:right; z-index:1000; color:#f8bf51; font-size:16px; padding:15px 5px 0px 0px; font-style:italic;}
 
 
 /* Carousel *******/
@@ -32,8 +33,8 @@ body{background:#FFF;}
 #about {background:url('../images/dark-to-blue.jpg') top center repeat-x  #3e6c88; color:#FFF;}
 #home {background:#FFF;}
 footer {background:url('../images/story_bg_wrap.png') #444; padding:15px; border-top:2px solid #333; color:#FFF; }
-#intro h1 {border-bottom:2px solid #d3441d; padding-bottom:10px; margin-bottom:20px;}
-#intro h1 span {color:#d3441d}
+#intro h1 {border-bottom:2px solid #f8bf51; padding-bottom:10px; margin-bottom:20px;}
+#intro h1 span {color:#f8bf51}
 #plan h1 {border-bottom:2px solid #cc841c; padding-bottom:10px;  margin-bottom:20px;}
 #plan h1 span {color:#cc841c}
 #about h1 {border-bottom:2px solid #3d9cc0; padding-bottom:10px; margin-bottom:20px;}
@@ -44,8 +45,9 @@ footer {background:url('../images/story_bg_wrap.png') #444; padding:15px; border
 .spacer {margin-top:25px;}
 .plan {border-bottom:2px solid #cc841c; margin-left:1px; margin-right:1px;}
 .build {border-bottom:2px solid #4e8d12; margin-left:1px; margin-right:1px;}
-.intro {border-bottom:2px solid #d3441d; margin-left:1px; margin-right:1px;}
+.intro {border-bottom:2px solid #f8bf51; margin-left:1px; margin-right:1px;}
 .about {border-bottom:2px solid #3e6c88; margin-left:1px; margin-right:1px;}
+.new { margin-left:1px; margin-right:1px; padding:11px !important;}
 .featurette-heading {margin-top: 0px !important;}
 .featurette-image {border:1px solid #CCC; margin-bottom:15px;}
 .info {font-style:italic; color:#777; margin-bottom:30px;}
@@ -63,7 +65,7 @@ footer {background:url('../images/story_bg_wrap.png') #444; padding:15px; border
 	padding-right:15px;
 }
 .lightbox p em {display:block; color:#d1ab37; font-size:12px;}
-h1 span {color:#ff8a00;}
+h1 span {color:#f8bf51;}
 .neveractive a {color:#999999 !important; background:#222222 !important;}
 .neveractive a:hover {color:#999999 !important;}
 .neveractive a:active {color:#999999 !important;}
